@@ -45,11 +45,65 @@ footer {
   margin-top: 100px;
 }
 
+header {
+  margin-bottom: 100px;
+}
+
+h1, h2, h3 {
+  letter-spacing: .2rem;
+  margin-bottom: 1.5rem;
+  }
+
+h1 {
+  font-size: 2.5rem;
+  font-weight:700;
+  }
+
 h2 {
   font-size: 1.5rem;
   margin-bottom: 1rem;
   font-weight:700;
  }  
+
+ h3 {
+  color: #666666;
+}
+
+p {
+  letter-spacing: .1rem;
+  line-height: 1.6;
+}
+
+/* 2 seperate divs so using flex perfectly does that left to right stack. Love putting all text in 1 div so that it wraps well */
+.text_and_image_content {
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 200px;
+}
+
+.intro_text_container {
+  width: 175%;
+}
+
+main {
+  max-width: 1000px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+img {
+  width:100%;
+  border-radius: 100%;
+}
+
+section { /* Ensures sections are 200px away from eachother */
+  margin-bottom: 200px;
+}
+
+#about_me {
+  text-align:center;
+}
 
  .social_icon {
   margin-right: 30px;
