@@ -2,3 +2,55 @@ html {
   height: 100%;
   width: 100%;
 }
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #212121;
+  padding: 40px 60px;
+}
+
+a {
+  font-size: 2rem;
+  color: #212121;
+  letter-spacing: .2rem;
+  font-weight:700;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #8c8c8c;
+}
+
+/* 
+# used for a specific id element
+*/
+#logo { 
+  letter-spacing: .3rem; /* Letter spacing seems vital for good aesthetics */
+  font-size: 2rem;
+}
+
+#nav_to_pages a {
+  margin-left: 2.5rem;
+}
+
+nav {
+  display: flex;
+  /*creates a space between each element evenly*/
+  justify-content: space-between;
+  /*items are centered in the cross-axis*/
+  align-items: center;
+}
+
+footer {
+  margin-top: 100px;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  font-weight:700;
+ }  
+
+ .social_icon {
+  margin-right: 30px;
+}
